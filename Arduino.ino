@@ -95,7 +95,7 @@ void fire()
   delay(2000);   
   SIM900A.println("AT+CMGS=\"+91xxxxxxxxxx\"\r");   
   delay(4000);      
-  SIM900A.println("Alert!!! Fire Detected. Address: Sector V, Saltlake Electronics Complex.  This is a automated gas detection system. Please do the needful");   
+  SIM900A.println("Alert!!! this is the home address");   
   delay(100);   
   Serial.println ("Done");   
   SIM900A.println((char)26);  
